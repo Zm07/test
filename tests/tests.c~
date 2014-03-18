@@ -3,7 +3,7 @@
 
 main()
 {
-	printf("Hello WORD!\n");
+	printf("Hello!\n");
 	printf("%d\n",sum(10,20));
 }
 
