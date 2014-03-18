@@ -1,0 +1,5 @@
+add_executable(prog2 tests2.c)
+add_executable(prog tests.c)
+target_link_libraries(prog2 mylib)
+target_link_libraries(prog mylib)
+include_directories("${PROJECT_SOURCE_DIR}/mylib")
